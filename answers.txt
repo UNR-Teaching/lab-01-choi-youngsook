@@ -1,0 +1,12 @@
+Date: 5/17/2022
+Author: Youngsook Choi
+Purpose: Lab1 assignment
+
+Q1. What has changed? What do you think the > in the previous statement did when combined with the ls command?
+A1. newfile.txt was added after I executed the command line ls > newfile.txt. I think what the > in the statement does is to add results of the ls statement to the file.
+
+Q2.Add newfile.txt to the git repository using the command git add newfile.txt. Run the command git status. What does it say about newfile.txt?
+A2. It says that newfile.txt was staged and ready to be committed.
+
+Q3. Open the file newfile.txt in a editor. Add the line "This is my file listing" to the top of the file and save it. Now run the command git diff. What does this command tell you about your files and their contents?
+A3. This command tells me about the difference(s) between the previous version of the newfile.txt and the current version of the newfile txt. I think + means that the change is added and it shows what was added. 
